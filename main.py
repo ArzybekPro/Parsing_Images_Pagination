@@ -29,7 +29,7 @@ async def load_data(url):
             
 async def main():
     images = []
-    shorteners = Shortener(timeout=6)
+    shorteners = Shortener(timeout=4)
     for i in range(1, 200):
         url = f"https://cspromogame.ru/avatars?page={i}"
         try:
