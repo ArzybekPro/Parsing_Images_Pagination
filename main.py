@@ -1,8 +1,6 @@
 from bs4 import BeautifulSoup as BS
 import aiohttp
-import asyncio
-import lxml
-import ssl
+import asyncio,ssl,lxml
 from fake_useragent import UserAgent
 import requests
 from pyshorteners import Shortener
